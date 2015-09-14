@@ -64,7 +64,7 @@ check_flask(){
 check_git(){
     git_op=`git --version`
 
-    if [[ $pip_op != *"command not found"* ]]
+    if [[ $git_op != *"command not found"* ]]
     then
 	GIT_INSTALLED=1 # git is installed
 	echo "Git is already installed"
@@ -150,6 +150,6 @@ setup_app(){
     sudo ./test.sh $SERVER_D
 }
 
-#setup_env
+setup_env
 setup_deps
-#setup_app
+setup_app
