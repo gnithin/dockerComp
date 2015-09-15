@@ -37,3 +37,4 @@ nohup.out
 container_info.json
 containers_details
 ip_addr
+*.swp
